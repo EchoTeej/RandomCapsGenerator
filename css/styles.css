@@ -1,0 +1,19 @@
+#input{
+display: flex;
+justify-content: center;
+padding-top: 2%;
+
+}
+
+#outputMessage{
+    text-align: center;
+}
+
+#spongebob{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 25%;
+}

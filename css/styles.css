@@ -7,6 +7,11 @@ padding-top: 2%;
 
 #outputMessage{
     text-align: center;
+    padding-top: 10px;
+}
+
+#buttons{
+    padding-top: 10px;
 }
 
 #spongebob{
@@ -15,5 +20,6 @@ padding-top: 2%;
 }
 
 img{
+    padding-top: 2%;
     width: 25%;
 }

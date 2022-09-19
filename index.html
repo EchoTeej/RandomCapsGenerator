@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <script src="script.js"></script>
-    <title>Hello World</title>
+    <title>Random Caps Generator</title>
   </head>
   <body>
     <div id="spongebob">
@@ -15,14 +15,17 @@
     </div>
     
     <div id="input">
-      <input type="text" value="Type something..." id="myInput">
+      <input type="text" placeholder="Enter your message here..." id="myInput">
       <button type="button" onclick="evenNumCap();">Get Value</button>     
     </div>
 
     <div id="outputMessage">
-      <div id ="displayMessage" value ="">OutputMessage</div>
-      <button onclick="btnCopy()">Copy Text to Clipboard</button>  
-      <button onclick="btnCopyImg()">Copy Image to Clipboard</button>  
+      <div id ="displayMessage" value =""></div>
+      <div id="buttons">
+        <button onclick="btnCopy()">Copy Text to Clipboard</button>  
+        <button onclick="btnCopyImg()">Copy Image to Clipboard</button>  
+      </div>
+      
 
     </div>
     
